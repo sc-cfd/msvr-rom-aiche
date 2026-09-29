@@ -29,7 +29,7 @@ pip install numpy scipy matplotlib plotly
 python msvr_rom.py
 ```
 
-The script fits the ten constants of Table 2 to the 90 CFD values by multi-start nonlinear least squares (about 20 s). It prints the constants and the mean and maximum deviations from the CFD results, and writes the model and CFD values of every case to `parity.csv` (Figure S3).
+The script fits the ten constants of Table 2 to the 92 CFD values by multi-start nonlinear least squares (about 20 s). It prints the constants and the mean and maximum deviations from the CFD results, and writes the model and CFD values of every case to `parity.csv` (Figure S3).
 
 ### Design and figures
 
