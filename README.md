@@ -14,14 +14,13 @@ The repository contains the reduced-order model of the cyclone-integrated multis
 | `msvr_rom.py` | CFD results of the 23 calibration cases, model equations (Supporting Information, Eqs. S2–S18) and calibration of the constants of Table 2 |
 | `msvr_design.py` | Design of a new MSVR at G = 60 Nm³/h and L = 216 kg/h and design-space map (Figure 8) |
 | `CO2_MEA_absorption_293K.c` | Fluent UDF with the source terms of CO2 absorption into 30 wt% MEA at 293.15 K |
-| `requirements.txt` | Python packages |
 
 ## Reduced-order model
 
 Python 3.9 or newer with numpy and scipy is required. matplotlib is needed for the figures and plotly for the interactive three-dimensional view.
 
 ```
-pip install -r requirements.txt
+pip install numpy scipy matplotlib plotly
 ```
 
 ### Calibration
